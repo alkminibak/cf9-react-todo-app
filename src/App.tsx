@@ -1,10 +1,12 @@
-import { Trash2 } from 'lucide-react';
+import Layout from "./shared/layout/Layout.tsx";
 
 function App() {
 
   return (
     <>
-      <Trash2 size={48} color="red" />
+       <Layout>
+          <h1>Main Content</h1>
+       </Layout>
     </>
   )
 }
